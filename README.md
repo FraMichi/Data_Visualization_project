@@ -36,7 +36,7 @@ The files `matches.csv` and `actions.csv` are generated directly from the raw `.
 ```text
 .
 ├── README.md
-├── final_proposal1.pdf          Deliverable 1 – Project Proposal
+├── project_proposal1.pdf          Deliverable 1 – Project Proposal
 ├── technical_report2.pdf        Deliverable 2 – Dataset Description & Exploratory Analysis
 ├── notebook.pdf                 Deliverable 3 – Notebook (PDF export)
 ├── notebook.ipynb               Deliverable 3 – Runnable notebook
@@ -62,7 +62,7 @@ The files `matches.csv` and `actions.csv` are generated directly from the raw `.
 
 | # | File | Description |
 |---|------|-------------|
-| 1 | `final_proposal1.pdf` | Project proposal, objectives, hypotheses, and planned visualizations |
+| 1 | `project_proposal1.pdf` | Project proposal, objectives, hypotheses, and planned visualizations |
 | 2 | `technical_report2.pdf` | Dataset description, exploratory analysis, and data-quality assessment |
 | 3 | `notebook.ipynb` / `notebook.pdf` / `geography_of_the_attack.html` | Complete parsing pipeline, exploratory analysis, and interactive Bokeh application |
 | 4 | `development_report.pdf` | Project development, changes from the proposal, and reflections |
