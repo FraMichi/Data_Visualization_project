@@ -36,19 +36,18 @@ The files `matches.csv` and `actions.csv` are generated directly from the raw `.
 ```text
 .
 ├── README.md
-├── project_proposal1.pdf          Deliverable 1 – Project Proposal
-├── technical_report2.pdf        Deliverable 2 – Dataset Description & Exploratory Analysis
-├── notebook.pdf                 Deliverable 3 – Notebook (PDF export)
-├── notebook.ipynb               Deliverable 3 – Runnable notebook
-├── geography_of_the_attack.html Deliverable 3 – Standalone Bokeh application
-├── development_report.pdf       Deliverable 4 – Development Report
-├── figures/                     Figures used in the Technical Report
+├── project_proposal1.pdf           Deliverable 1 – Project Proposal
+├── technical_report2.pdf           Deliverable 2 – Dataset Description & Exploratory Analysis
+├── geography_of_the_attack3.ipynb  Deliverable 3 – Runnable notebook
+├── geography_of_the_attack3.html   Deliverable 3 – Standalone Bokeh application
+├── development_report4.pdf          Deliverable 4 – Development Report
+├── figures/                        Figures used in the Technical Report
 └── dataset/
-    ├── matches.csv              One row per match
-    ├── actions.csv              One row per logged action
-    ├── *.dvw                    Raw DataVolley scouting files (matches of Brescia)
-    ├── *.dvw                    Raw DataVolley scouting files (matches of Talmassons)
-    └── *.dvw                    Raw DataVolley scouting files (all the matches)
+    ├── matches.csv                 One row per match
+    ├── actions.csv                 One row per logged action
+    ├── brescia/                    Raw DataVolley scouting files (matches of Brescia)
+    ├── talmassons/                 Raw DataVolley scouting files (matches of Talmassons)
+    └── all/                        Raw DataVolley scouting files (all the matches)
 ```
 
 ## Method
@@ -64,8 +63,8 @@ The files `matches.csv` and `actions.csv` are generated directly from the raw `.
 |---|------|-------------|
 | 1 | `project_proposal1.pdf` | Project proposal, objectives, hypotheses, and planned visualizations |
 | 2 | `technical_report2.pdf` | Dataset description, exploratory analysis, and data-quality assessment |
-| 3 | `notebook.ipynb` / `notebook.pdf` / `geography_of_the_attack.html` | Complete parsing pipeline, exploratory analysis, and interactive Bokeh application |
-| 4 | `development_report.pdf` | Project development, changes from the proposal, and reflections |
+| 3 | `geography_of_the_attack3.ipynb` / `geography_of_the_attack3.html` | Complete parsing pipeline, exploratory analysis, and interactive Bokeh application |
+| 4 | `development_report4.pdf` | Project development, changes from the proposal, and reflections |
 
 ## Requirements
 
